@@ -213,8 +213,8 @@ body::before {
 
 @media only screen and (min-width: 600px) {
     .title {
-        font-size: 3rem;
-        top: 7em;
+        font-size: 2rem;
+        top: 6em;
     }
     .main-header {
         font-size: 1rem;
@@ -243,6 +243,17 @@ body::before {
  
  /* Extra large devices (large laptops and desktops, 1200px and up) */
  @media only screen and (min-width: 1200px) {
+    body {
+        font-size: 8px;
+    }
+    .page-wrapper {
+        margin-top: 35em;
+        padding: 2em;
+    }
+    
+ } 
+
+ @media only screen and (min-width: 1400px) {
     body {
         font-size: 10px;
     }
